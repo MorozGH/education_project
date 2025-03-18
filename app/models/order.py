@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship
 
 from app.database import Base
 from app.models.user import BaseMixin
-from app.enums import OrderStatus, LanguagePair
+from app.models.enums import OrderStatus, LanguagePair
 
 class Order(Base, BaseMixin):
     __tablename__ = "orders"

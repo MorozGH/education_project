@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-from app.enums import TransactionType
+from app.models.enums import TransactionType
 
 class TransactionBase(BaseModel):
     amount: float

@@ -3,7 +3,7 @@ from datetime import datetime
 from typing import Optional
 import re
 
-from app.enums import LanguagePair, OrderStatus
+from app.models.enums import LanguagePair, OrderStatus
 
 class OrderBase(BaseModel):
     target_url: str
