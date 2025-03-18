@@ -1,4 +1,4 @@
-![Image alt](https://github.com/MorozGH/education_project/erd.jpg)
+![Image alt](https://github.com/MorozGH/education_project/blob/main/erd.jpg)
 
 # Translation Service API
 
